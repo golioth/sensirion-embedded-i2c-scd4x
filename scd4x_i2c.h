@@ -45,6 +45,10 @@ extern "C" {
 
 #include "sensirion_config.h"
 
+#define SCD4X_POWER_UP_DELAY_USEC 1000000
+#define SCD4X_SOFT_RESET_DELAY_USEC 1000000
+#define SCD4X_MEASUREMENT_DURATION_USEC 5000000
+
 /**
  * scd4x_start_periodic_measurement() - start periodic measurement, signal
  * update interval is 5 seconds.
